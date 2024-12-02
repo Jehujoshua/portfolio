@@ -1,0 +1,52 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin: 0 auto 20px;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+.info-section {
+    margin-bottom: 30px;
+}
+
+.social-logos {
+    margin-top: 20px;
+}
+
+.social-logos img {
+    height: 40px;
+    margin: 0 10px;
+}
+
+.about-me {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.socials-title {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar {
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+}

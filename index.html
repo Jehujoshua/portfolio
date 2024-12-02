@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jehu Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            background: linear-gradient(to right, #3a7bd5, #00d2ff);
+        }
+
+        .hover-effect {
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .hover-effect:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        .about-me {
+            background-color: #ddfffd;
+            padding: 60px 0;
+        }
+
+        #skills {
+            background-color: #e3f2fd;
+            padding: 60px 0;
+        }
+
+        #works {
+            background-color: #f0f0f0;
+            padding: 60px 0;
+        }
+
+        .card-title {
+            color: #333;
+        }
+
+        .social-logos {
+            background-color: #7dfff8;
+            padding: 20px 0;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1SNL09zv0Mh_lAcNavUNG_z_czamSCN0-Cg&s" alt="Logo" class="rounded-circle" style="height: 40px; margin-right: 10px;">
+                Home
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center about-me">
+        <h1 class="display-4">ABOUT ME</h1>
+        <p class="lead">Welcome to my corner of the internet! I’m not a superhero, but I do have some pretty cool skills, like making awkward situations even more awkward.</p>
+    </div>
+
+    <div class="container text-center">
+        <img src="https://scontent.fcgy2-4.fna.fbcdn.net/v/t39.30808-6/348484167_570857221820899_8725899760670959131_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFsYyaF7tCQ2w9QXNfO5ZGJDZ_s3mrTV-sNn-zeatNX6wdfOq2ycr8A9bBM0h7btsh-Xlu7ZDeds9kvsMfZGL7Y&_nc_ohc=eLH_BWKGjp8Q7kNvgEgDEeL&_nc_zt=23&_nc_ht=scontent.fcgy2-4.fna&_nc_gid=AxjHH4iGKdQm-W3dXLz5sST&oh=00_AYDkJHCMXOYp4t0JtbVQOm5R46oDGBrEFjMqGOaSpIbpfA&oe=675312BD" style="width: 300px;">
+        <h2>Jehu Joshua Besañes</h2>
+        <p>Age: 19</p>
+        
+        <div class="row text-left">
+            <div class="col-md-3">
+                <h3>EXPERTISE</h3>
+                <p>UI/UX Design (or as I call it, "Making Things Pretty and Usable")</p>
+            </div>
+            <div class="col-md-3">
+                <h3>DATE OF BIRTH</h3>
+                <p>26 August 2025 (Time traveler in training!)</p>
+            </div>
+            <div class="col-md-3">
+                <h3>Best Design</h3>
+                <p>Presentation Designing (Turning boring slides into art)</p>
+            </div>
+            <div class="col-md-3">
+                <h3>BORN IN</h3>
+                <p>Iligan City (where the weather is as unpredictable as my mood!)</p>
+            </div>
+        </div>
+        
+        <p class="socials-title mt-4">SOCIALS</p> 
+        <div class="social-logos">
+            <a href="https://www.facebook.com/jehujoshua.besanes" target="_blank">
+                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" alt="Facebook" style="height: 40px; margin: 0 10px;">
+            </a>
+            <a href="https://www.instagram.com/jehujoshua/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3kVUd3thApwcd48CHfttIH-z1b3ce3n8sqA&s" alt="Instagram" style="height: 40px; margin: 0 10px;">
+            </a>
+            <a href="https://www.roblox.com/users/115043750/profile" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJAT7iNdljL2ZmI8_2MTH92ZbhLDSZaVAzQ&s" alt="Roblox" style="height: 40px; margin: 0 10px;">
+            </a>
+        </div>
+    </div>
+
+    <section id="skills" class="mt-5 py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">SKILLS</h2>
+            <div id="skillsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0zjks_52XthDmYm508J1ZNCVV3Vh0fjOzbg&s" alt="Basketball" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Sports</h3>
+                                        <p class="card-text">BASKETBALL, SWIMMING, RUNNING</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_MlXyeCt6YjNprqgQ_2sGLuZgZ0TcO6rsxw&s" alt="Cooking" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Cooking</h3>
+                                        <p class="card-text">PIZZA, BURGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://media.istockphoto.com/id/1313854295/vector/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-video-game-wearing.jpg?s=612x612&w=0&k=20&c=tGDvdD63g2nFnnmjrTtcKwi_N9e5PUKhivi__JE39hw=" alt="Video Games" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Video Games</h3>
+                                        <p class="card-text">VALORANT, ROBLOX, MINECRAFT, MLBB</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*h_cbQRhG7Dacf8tTUQtaKQ.jpeg" alt="Graphic Design" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Graphic Design</h3>
+                                        <p class="card-text">LOGOS, WEB DESIGNING</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShFnQ_Tk3-_0_GK4BKqWXwYZzlxdrEyB0yKQ&s" alt="Web Development" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Web Development</h3>
+                                        <p class="card-text">HTML, CSS, JS, BOOTSTRAP</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9lHm9LbJu4IiBhKRFU-azQ-9fNNdzjoHYOQ&s" alt="Photography" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Photography</h3>
+                                        <p class="card-text">LANDSCAPES, PORTRAITS, 0.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#skillsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#skillsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="mt-5 py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">MY WORKS</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="E-Commerce.jpg" alt="Work 1" class="card-img-top hover-effect">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Dashboard</h5>
+                            <p class="card-text">This work is an example of how we are going to invest in gold gadgets, as we believe that, in God's plan, we will achieve wealth and success someday.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/500x300?text=Work+2" alt="Work 2" class="card-img-top hover-effect">
+                        <div class="card-body">
+                            <h5 class="card-title">Work Title 2</h5>
+                            <p class="card-text">Another project description. Here you can showcase another type of work you've done (e.g., Web Development, Graphic Design).</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/500x300?text=Work+3" alt="Work 3" class="card-img-top hover-effect">
+                        <div class="card-body">
+                            <h5 class="card-title">Work Title 3</h5>
+                            <p class="card-text">Description of your third project. You can highlight different skills or projects you've done over time.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
